@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Society - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Join Computer Society</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="events.html">Events</a> |
+        <a href="register.html">Register</a> |
+        <a href="timetable.html">Timetable</a>
+    </nav>
+
+    <hr>
+
+     <h2>Registration Information</h2>
+
+    <p>
+        Welcome to our Computer Society!
+        Register with us to participate in workshops,
+        coding competitions and technology events.
+    </p>
+
+<h2>Member Registration Form</h2>
+
+<form action="register.html" method="post">
+
+    <fieldset>
+        <legend>Personal Details</legend>
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname"
+required autofocus>
+    <br><br>
+
+   
+    
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"
+    required placeholder="name@example.com">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"
+    required minlength="8">
+    <br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"
+placeholder="03001234567"
+pattern="[0-9]{11}"
+title="Enter exactly 11 digits">
+    <br><br>
+
+    <label for="website">Website:</label>
+    <input type="url" id="website" name="website"
+placeholder="https://">
+    <br><br>
+
+    <label for="semester">Semester:</label>
+    <input type="number" id="semester" name="semester"
+    min="1" max="8">
+    <br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+
+    
+    </fieldset>
+
+    <fieldset>
+    <legend>Preferences</legend>
+
+    <label for="colour">Favourite Colour:</label>
+    <input type="color" id="colour" name="colour"
+    value="#1f3a5f">
+    <br><br>
+
+    <label for="experience">Experience Level:</label>
+    <input type="range" id="experience" name="experience"
+    min="1" max="10" value="5">
+    <br><br>
+
+   
+<h3>Preferences</h3>
+
+<!-- Gender -->
+<p>Gender:</p>
+
+<input type="radio" id="male" name="gender" value="male" checked>
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label>
+
+<br><br>
+
+<!-- Department -->
+<label for="dept">Department:</label>
+
+<select id="dept" name="dept">
+    <option value="cs" selected>Computer Science</option>
+    <option value="se">Software Engineering</option>
+    <option value="ee">Electrical Engineering</option>
+</select>
+
+<br><br>
+
+<!-- Interests -->
+<p>Interests:</p>
+
+<input type="checkbox" id="web" name="interest" value="web">
+<label for="web">Web</label>
+
+<input type="checkbox" id="ai" name="interest" value="ai">
+<label for="ai">AI</label>
+
+<input type="checkbox" id="networking" name="interest" value="networking">
+<label for="networking">Networking</label>
+
+<input type="checkbox" id="gaming" name="interest" value="gaming">
+<label for="gaming">Gaming</label>
+
+<br><br>
+
+<!-- Profile Photo -->
+<label for="photo">Profile Photo:</label>
+<input type="file" id="photo" name="photo" accept="image/*">
+
+<br><br>
+
+<!-- About You -->
+<label for="about">About You:</label>
+<br>
+<textarea id="about" name="about" rows="4" cols="40" maxlength="200"></textarea>
+
+<br><br>
+
+</fieldset>
+
+<button type="submit">Register</button>
+<button type="reset">Clear</button>
+
+
+</form>
+
+
+    
+
+
+    <p>Contact us to become a member.</p>
+
+</body>
+</html>

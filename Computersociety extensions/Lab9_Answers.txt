@@ -1,0 +1,49 @@
+
+ICT LAB 9 - SUBMISSION ANSWERS
+
+TASK 1: TABLES
+
+1. What does colspan do?
+Colspan merges two or more columns into one cell.
+
+2. What does rowspan do?
+Rowspan merges two or more rows into one cell.
+
+3. How many cells must the second Monday row have, and why?
+It must have two cells because Monday already covers two rows using rowspan.
+
+4. Why use th instead of td?
+Th is used for table headings, while td is used for normal data.
+
+5. Why is the table split into thead, tbody and tfoot?
+To organize the table into heading, body and footer sections.
+
+
+TASK 2: FORMS
+
+1. What happens when using GET?
+The submitted data appears in the URL after a question mark.
+
+2. What happens when using POST?
+The data is sent inside the HTTP request body and does not appear in the URL.
+
+3. What is the difference between radio buttons and checkboxes?
+Radio buttons allow one selection from a group, while checkboxes allow multiple selections.
+
+4. What is the difference between button and input submit?
+Both can submit a form. The button element allows more flexible content, while input type submit uses a value as its label.
+
+5. How do you select multiple options?
+Hold Ctrl while clicking the options on Windows.
+
+
+TASK 3: VALIDATION AND REFLECTION
+
+1. Why is a password sent with POST instead of GET?
+POST does not display the password in the URL, unlike GET. HTTPS is also needed to protect it during transmission.
+
+2. Why is a field without a name attribute missing from submitted data?
+Because the name attribute identifies the field in the submitted form data.
+
+3. What extra technology does a real website need?
+A server-side programming language and database are needed to receive and store form data.
